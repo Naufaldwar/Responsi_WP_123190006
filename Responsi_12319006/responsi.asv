@@ -1,0 +1,5 @@
+opts = detectImportOptions('Real estate valuation data set.xlsx');
+opts.SelectedVariableNames = [2 3 4 7];
+data = readmatrix('Real estate valuation data set.xlsx',opts);
+k = [0,0,1,0];
+w = [3,5,4,1]
